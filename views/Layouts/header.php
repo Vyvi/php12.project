@@ -46,42 +46,54 @@
             <span class="nav-link-text">Bảng điều khiển</span>
           </a>
         </li>
+        <?php if(isset($_SESSION['user'])&& $_SESSION['user']['NHOM_NV'] == 1) { ?>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Products">
           <a class="nav-link" href="index.php?mod=product&act=list">
             <i class="fa fa-fw fab fa-product-hunt"></i>
             <span class="nav-link-text">Quản lý sản phẩm</span>
           </a>
         </li>
+        <?php } ?>
+        <?php if(isset($_SESSION['user']) || isset($_SESSION['user_cus'])) { ?>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Users">
           <a class="nav-link" href="index.php?mod=customer&act=list">
             <i class="fa fa-fw fas fa-users""></i>
             <span class="nav-link-text">Quản lý người dùng</span>
           </a>
         </li>
+        <?php } ?>
+        <?php if(isset($_SESSION['user'])&& $_SESSION['user']['NHOM_NV'] == 1) { ?>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tags">
           <a class="nav-link" href="index.php?mod=employee&act=list">
             <i class="fa fa-fw fas fa-street-view"></i>
             <span class="nav-link-text">Quản lý nhân viên</span>
           </a>
         </li>
+        <?php } ?>
+        <?php if(isset($_SESSION['user'])) { ?>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tags">
           <a class="nav-link" href="index.php?mod=sale&act=list">
             <i class="fa fa-fw fab fa-buysellads"></i>
             <span class="nav-link-text">Bán hàng</span>
           </a>
         </li>
+        <?php } ?>
+        <?php if(isset($_SESSION['user'])&& $_SESSION['user']['NHOM_NV'] == 1) { ?>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tags">
           <a class="nav-link" href="index.php?mod=medium&act=list">
             <i class="fa fa-fw far fa-credit-card"></i>
             <span class="nav-link-text">Lịch sử mua bán</span>
           </a>
         </li>
+        <?php } ?>
+        <?php if(isset($_SESSION['user'])&& $_SESSION['user']['NHOM_NV'] == 1) { ?>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tags">
           <a class="nav-link" href="index.php?mod=sale&act=show">
             <i class="fa fa-fw fas fa-align-left"></i>
             <span class="nav-link-text">Thống kê doanh thu</span>
           </a>
         </li>
+        <?php } ?>
       </ul>
       <ul class="navbar-nav sidenav-toggler">
         <li class="nav-item">

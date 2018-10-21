@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | E-Shopper</title>
+    <title>Trang chủ | Điện máy  số</title>
     <link rel="icon" href="public/images/shopping_cart.png" type="images/x-icon">
     <link href="views/user/css/bootstrap.min.css" rel="stylesheet">
     <link href="views/user/css/font-awesome.min.css" rel="stylesheet">
@@ -34,8 +34,8 @@
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
-								<li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+								<li><a href="#"><i class="fa fa-phone"></i> +841655836810</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> dienmayso@gmail.com</a></li>
 							</ul>
 						</div>
 					</div>
@@ -59,28 +59,28 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.php?mod=user&act=list"><img src="views/user/images/home/logo.png" alt="" /></a>
+							<a href="index.php?mod=user&act=list"><img src="views/user/images/home/logogo.png" style="width: 50%;height: 50%;" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
 								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-									USA
+									Việt Nam
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu">
-									<li><a href="#">Canada</a></li>
-									<li><a href="#">UK</a></li>
+									<li><a href="#">USA</a></li>
+									<li><a href="#">Other</a></li>
 								</ul>
 							</div>
 							
 							<div class="btn-group">
 								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-									DOLLAR
+									VNĐ
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Dollar</a></li>
-									<li><a href="#">Pound</a></li>
+									<li><a href="#">Other</a></li>
 								</ul>
 							</div>
 						</div>
@@ -88,11 +88,11 @@
 					<div class="col-sm-8">
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
-								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-								<li><a href="#"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="index.php?mod=sale_user&act=cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-								<li><a href="index.php?mod=login&act=formLogin"><i class="fa fa-lock"></i> Login</a></li>
+								<li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
+								<li><a href="#"><i class="fa fa-star"></i> Sản phẩm mong muốn</a></li>
+								<li><a href="#"><i class="fa fa-crosshairs"></i> Khảo giá</a></li>
+								<li><a href="index.php?mod=sale_user&act=cart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+								<li><a href="index.php?mod=login&act=formLogin"><i class="fa fa-lock"></i> Đăng nhập</a></li>
 							</ul>
 						</div>
 					</div>
@@ -114,24 +114,24 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.php?mod=user&act=list" class="active">Home</a></li>
-								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+								<li><a href="index.php?mod=user&act=list" class="active">Trang chủ</a></li>
+								<li class="dropdown"><a href="#">Gian hàng<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Products</a></li>
-										<li><a href="#">Product Details</a></li> 
-										<li><a href="#">Checkout</a></li> 
-										<li><a href="index.php?mod=sale_user&act=cart">Cart</a></li> 
-										<li><a href="index.php?mod=login&act=formLogin">Login</a></li> 
+                                        <li><a href="#">Sản phẩm</a></li>
+										<li><a href="#">Chi tiết sản phẩm</a></li> 
+										<li><a href="#">Khảo giá</a></li> 
+										<li><a href="index.php?mod=sale_user&act=cart">Giỏ hàng</a></li> 
+										<li><a href="index.php?mod=login&act=formLogin">Đăng nhập</a></li> 
                                     </ul>
                                 </li> 
-								<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
+								<li class="dropdown"><a href="#">Góp ý<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Blog List</a></li>
-										<li><a href="#">Blog Single</a></li>
+                                        <li><a href="#">Góp ý sản phẩm</a></li>
+										<li><a href="#">Góp ý dịch vụ</a></li>
                                     </ul>
                                 </li> 
-								<li><a href="#">404</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="#">Sắp ra mắt</a></li>
+								<li><a href="#">Liên hệ</a></li>
 							</ul>
 						</div>
 					</div>
@@ -159,39 +159,39 @@
 						<div class="carousel-inner">
 							<div class="item active">
 								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Free E-Commerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
+									<h1><span>Điện máy </span>Số</h1>
+									<h2>Cung cấp chất lượng cùng dịch vụ tốt nhất</h2>
+									<p>Mang đến cho khách hàng những sản phẩm tuyệt vời với giá cả hợp lý cùng với dịch vụ 24/7</p>
+									<button type="button" class="btn btn-default get">Mua sắm ngay</button>
 								</div>
 								<div class="col-sm-6">
-									<img src="views/user/images/home/girl1.jpg" class="girl img-responsive" alt="" />
-									<img src="views/user/images/home/pricing.png"  class="pricing" alt="" />
+									<img src="views/user/images/home/1.jpg" class="girl img-responsive" style="max-width: 100%;" alt="" />
+									<img src="views/user/images/home/1.jpg" class="girl img-responsive" style="max-width: 100%;" alt="" />									
 								</div>
 							</div>
 							<div class="item">
 								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>100% Responsive Design</h2>
+									<h1><span>Điện máy </span>Số</h1>
+									<h2>100% Tin cậy</h2>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
+									<button type="button" class="btn btn-default get">Mua sắm ngay</button>
 								</div>
 								<div class="col-sm-6">
-									<img src="views/user/images/home/girl2.jpg" class="girl img-responsive" alt="" />
-									<img src="views/user/images/home/pricing.png"  class="pricing" alt="" />
+									<img src="views/user/images/home/2.png" class="girl img-responsive" alt="" />
+									<img src="views/user/images/home/2.png" class="girl img-responsive" alt="" />
 								</div>
 							</div>
 							
 							<div class="item">
 								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Free Ecommerce Template</h2>
+									<h1><span>Điện máy </span>Số</h1>
+									<h2>Dịch vu nhanh nhất</h2>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
+									<button type="button" class="btn btn-default get">Mua sắm ngay</button>
 								</div>
 								<div class="col-sm-6">
-									<img src="views/user/images/home/girl3.jpg" class="girl img-responsive" alt="" />
-									<img src="views/user/images/home/pricing.png" class="pricing" alt="" />
+									<img src="views/user/images/home/3.png" class="girl img-responsive" alt="" />
+									<img src="views/user/images/home/3.png" class="girl img-responsive" alt="" />
 								</div>
 							</div>
 							
@@ -215,25 +215,25 @@
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="left-sidebar">
-						<h2>Category</h2>
+						<h2>Danh mục sản phẩm</h2>
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Sportswear
+											Máy tính
 										</a>
 									</h4>
 								</div>
 								<div id="sportswear" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="#">Nike </a></li>
-											<li><a href="#">Under Armour </a></li>
-											<li><a href="#">Adidas </a></li>
-											<li><a href="#">Puma</a></li>
-											<li><a href="#">ASICS </a></li>
+											<li><a href="#">Dell </a></li>
+											<li><a href="#">HP </a></li>
+											<li><a href="#">Apple </a></li>
+											<li><a href="#">Samsung</a></li>
+											<li><a href="#">Lenovo </a></li>
 										</ul>
 									</div>
 								</div>
@@ -243,14 +243,14 @@
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" href="#mens">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Mens
+											Nồi cơm
 										</a>
 									</h4>
 								</div>
 								<div id="mens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="#">Fendi</a></li>
+											<li><a href="#">Toshiba</a></li>
 											<li><a href="#">Guess</a></li>
 											<li><a href="#">Valentino</a></li>
 											<li><a href="#">Dior</a></li>
@@ -270,7 +270,7 @@
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" href="#womens">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Womens
+											Máy ảnh
 										</a>
 									</h4>
 								</div>
@@ -288,52 +288,52 @@
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Kids</a></h4>
+									<h4 class="panel-title"><a href="#">Điều hòa</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Fashion</a></h4>
+									<h4 class="panel-title"><a href="#">TV</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Households</a></h4>
+									<h4 class="panel-title"><a href="#">Tủ lạnh</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Interiors</a></h4>
+									<h4 class="panel-title"><a href="#">Mát giặt</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Clothing</a></h4>
+									<h4 class="panel-title"><a href="#">Chuột</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Bags</a></h4>
+									<h4 class="panel-title"><a href="#">Phím</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Shoes</a></h4>
+									<h4 class="panel-title"><a href="#">Các sản phẩm khác</a></h4>
 								</div>
 							</div>
 						</div><!--/category-products-->
 					
 						<div class="brands_products"><!--brands_products-->
-							<h2>Brands</h2>
+							<h2>Máy tính</h2>
 							<div class="brands-name">
 								<ul class="nav nav-pills nav-stacked">
-									<li><a href="#"> <span class="pull-right">(50)</span>Acne</a></li>
+									<li><a href="#"> <span class="pull-right">(50)</span>Dell</a></li>
 									<li><a href="#"> <span class="pull-right">(56)</span>Grüne Erde</a></li>
 									<li><a href="#"> <span class="pull-right">(27)</span>Albiro</a></li>
 									<li><a href="#"> <span class="pull-right">(32)</span>Ronhill</a></li>
 									<li><a href="#"> <span class="pull-right">(5)</span>Oddmolly</a></li>
 									<li><a href="#"> <span class="pull-right">(9)</span>Boudestijn</a></li>
-									<li><a href="#"> <span class="pull-right">(4)</span>Rösch creative culture</a></li>
+									<li><a href="#"> <span class="pull-right">(4)</span>HP</a></li>
 								</ul>
 							</div>
 						</div><!--/brands_products-->
@@ -342,7 +342,7 @@
 							<h2>Price Range</h2>
 							<div class="well text-center">
 								 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
-								 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+								 <b class="pull-left">VNĐ 0</b> <b class="pull-right">VNĐ 5.000.000</b>
 							</div>
 						</div><!--/price-range-->
 						
@@ -364,14 +364,14 @@
 											<img src="public/images/<?= $row['ANH_SP'] ?>" alt="" style="width: 100%;height: 200px;" />
 											<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 											<p><?= $row['TEN_SP'] ?></p>
-											<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+											<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 										</div>
 										<div class="product-overlay">
 											<div class="overlay-content">
 												<p style="color: white;">Amazing products</p>
 												<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 												<p><?= $row['TEN_SP'] ?></p>
-												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 											</div>
 										</div>
 								</div>
@@ -389,11 +389,11 @@
 					<div class="category-tab"><!--category-tab-->
 						<div class="col-sm-12">
 							<ul class="nav nav-tabs">
-								<li class="active"><a href="#tshirt" data-toggle="tab">T-Shirt</a></li>
-								<li><a href="#blazers" data-toggle="tab">Blazers</a></li>
-								<li><a href="#sunglass" data-toggle="tab">Sunglass</a></li>
-								<li><a href="#kids" data-toggle="tab">Kids</a></li>
-								<li><a href="#poloshirt" data-toggle="tab">Polo shirt</a></li>
+								<li class="active"><a href="#tshirt" data-toggle="tab">Máy tính</a></li>
+								<li><a href="#blazers" data-toggle="tab">Máy giặt</a></li>
+								<li><a href="#sunglass" data-toggle="tab">TV</a></li>
+								<li><a href="#kids" data-toggle="tab">Tủ lạnh</a></li>
+								<li><a href="#poloshirt" data-toggle="tab">Điều hòa</a></li>
 							</ul>
 						</div>
 						<div class="tab-content">
@@ -406,7 +406,7 @@
 												<img src="public/images/<?= $row['ANH_SP']?> " alt="" style="width: 100%;height: 150px;" />
 												<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 												<p><?= $row['TEN_SP']?></p>
-												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 											</div>
 											
 										</div>
@@ -425,7 +425,7 @@
 												<img src="public/images/<?= $row['ANH_SP']?> " alt="" style="width: 100%;height: 150px;" />
 												<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 												<p><?= $row['TEN_SP']?></p>
-												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 											</div>
 											
 										</div>
@@ -443,7 +443,7 @@
 												<img src="public/images/<?= $row['ANH_SP']?> " alt="" style="width: 100%;height: 150px;" />
 												<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 												<p><?= $row['TEN_SP']?></p>
-												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 											</div>
 											
 										</div>
@@ -461,7 +461,7 @@
 												<img src="public/images/<?= $row['ANH_SP']?> " alt="" style="width: 100%;height: 150px;" />
 												<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 												<p><?= $row['TEN_SP']?></p>
-												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 											</div>
 											
 										</div>
@@ -487,7 +487,7 @@
 													<img src="public/images/<?= $row['ANH_SP'] ?>" alt="" style="width: 100%;height: 150px;"/>
 													<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 													<p><?= $row['TEN_SP']?></p>
-													<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+													<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 												</div>
 												
 											</div>
@@ -508,7 +508,7 @@
 													<img src="public/images/<?= $row['ANH_SP'] ?>" alt="" style="width: 100%;height: 150px;"/>
 													<h2><?= number_format($row['GIA_BAN']) ?> VNĐ</h2>
 													<p><?= $row['TEN_SP']?></p>
-													<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+													<a href="index.php?mod=sale_user&act=addcart&MA_SP=<?= $row['MA_SP'] ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ</a>
 												</div>
 												
 											</div>
@@ -537,7 +537,7 @@
 				<div class="row">
 					<div class="col-sm-2">
 						<div class="companyinfo">
-							<h2><span>e</span>-shopper</h2>
+							<h2><span>Điện máy </span>Số</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
 						</div>
 					</div>
@@ -552,8 +552,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 						
@@ -567,8 +567,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 						
@@ -582,8 +582,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 						
@@ -597,15 +597,16 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
 							<img src="views/user/images/home/map.png" alt="" />
-							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+							<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 						</div>
 					</div>
 				</div>
@@ -617,59 +618,59 @@
 				<div class="row">
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Service</h2>
+							<h2>Dịch vụ</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Online Help</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Order Status</a></li>
-								<li><a href="#">Change Location</a></li>
+								<li><a href="#">Chăm sóc online</a></li>
+								<li><a href="#">Liên lạc</a></li>
+								<li><a href="#">Dịch vụ giao hàng</a></li>
+								<li><a href="#">Phản ánh dịch vụ</a></li>
 								<li><a href="#">FAQ’s</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Quock Shop</h2>
+							<h2>Mua nhanh</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">T-Shirt</a></li>
-								<li><a href="#">Mens</a></li>
-								<li><a href="#">Womens</a></li>
-								<li><a href="#">Gift Cards</a></li>
-								<li><a href="#">Shoes</a></li>
+								<li><a href="#">TV</a></li>
+								<li><a href="#">Máy giặt</a></li>
+								<li><a href="#">Tủ lạnh</a></li>
+								<li><a href="#">Điều hòa</a></li>
+								<li><a href="#">Bàn Là</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Policies</h2>
+							<h2>Chính sách</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privecy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
-								<li><a href="#">Billing System</a></li>
-								<li><a href="#">Ticket System</a></li>
+								<li><a href="#">Điều khoản dịch vụ</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+								<li><a href="#">Chính sách hoàn trả</a></li>
+								<li><a href="#">Hệ thống thanh toán</a></li>
+								<li><a href="#">Hệ thống khuyến mãi</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>About Shopper</h2>
+							<h2>About Us</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Company Information</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">Store Location</a></li>
-								<li><a href="#">Affillate Program</a></li>
+								<li><a href="#">Thông tin công ty</a></li>
+								<li><a href="#">Thành phần</a></li>
+								<li><a href="#">Chi nhánh</a></li>
+								<li><a href="#">Chương trình làm việc</a></li>
 								<li><a href="#">Copyright</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-3 col-sm-offset-1">
 						<div class="single-widget">
-							<h2>About Shopper</h2>
+							<h2>Mục tiêu</h2>
 							<form action="#" class="searchform">
 								<input type="text" placeholder="Your email address" />
 								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-								<p>Get the most recent updates from <br />our site and be updated your self...</p>
+								<p>Trang bán hàng sẽ liên tục được cập nhật <br />hãy chuẩn bị...</p>
 							</form>
 						</div>
 					</div>
@@ -681,8 +682,8 @@
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
-					<p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
-					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+					<p class="pull-left">Copyright © 2018 Điện máy số Inc. All rights reserved.</p>
+					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">S-KTTSL</a></span></p>
 				</div>
 			</div>
 		</div>

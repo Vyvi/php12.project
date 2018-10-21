@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Cart | E-Shopper</title>
-     <link rel="icon" href="public/images/shopping_cart.png" type="images/x-icon">
+    <title>Trang chủ | Điện máy  số</title>
+    <link rel="icon" href="public/images/shopping_cart.png" type="images/x-icon">
     <link href="views/user/css/bootstrap.min.css" rel="stylesheet">
     <link href="views/user/css/font-awesome.min.css" rel="stylesheet">
     <link href="views/user/css/prettyPhoto.css" rel="stylesheet">
@@ -23,6 +23,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="views/user/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="views/user/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="views/user/images/ico/apple-touch-icon-57-precomposed.png">
+   
 </head><!--/head-->
 
 <body>
@@ -33,19 +34,19 @@
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
-								<li><a href=""><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
-								<li><a href=""><i class="fa fa-envelope"></i> info@domain.com</a></li>
+								<li><a href="#"><i class="fa fa-phone"></i> +841655836810</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> dienmayso@gmail.com</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="social-icons pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href=""><i class="fa fa-facebook"></i></a></li>
-								<li><a href=""><i class="fa fa-twitter"></i></a></li>
-								<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -58,28 +59,28 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.php?mod=user&act=list"><img src="views/user/images/home/logo.png" alt="" /></a>
+							<a href="index.php?mod=user&act=list"><img src="views/user/images/home/logogo.png" style="width: 50%;height: 50%;" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
 								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-									USA
+									Việt Nam
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu">
-									<li><a href="">Canada</a></li>
-									<li><a href="">UK</a></li>
+									<li><a href="#">USA</a></li>
+									<li><a href="#">Other</a></li>
 								</ul>
 							</div>
 							
 							<div class="btn-group">
 								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-									DOLLAR
+									VNĐ
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu">
-									<li><a href="">Canadian Dollar</a></li>
-									<li><a href="">Pound</a></li>
+									<li><a href="#">Dollar</a></li>
+									<li><a href="#">Other</a></li>
 								</ul>
 							</div>
 						</div>
@@ -87,11 +88,11 @@
 					<div class="col-sm-8">
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href=""><i class="fa fa-user"></i> Account</a></li>
-								<li><a href=""><i class="fa fa-star"></i> Wishlist</a></li>
-								<li><a href="#"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="index.php?mod=sale_user&act=cart" class="active"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-								<li><a href="index.php?mod=user&act=list"><i class="fa fa-lock"></i> Login</a></li>
+								<li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
+								<li><a href="#"><i class="fa fa-star"></i> Sản phẩm mong muốn</a></li>
+								<li><a href="#"><i class="fa fa-crosshairs"></i> Khảo giá</a></li>
+								<li><a href="index.php?mod=sale_user&act=cart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+								<li><a href="index.php?mod=login&act=formLogin"><i class="fa fa-lock"></i> Đăng nhập</a></li>
 							</ul>
 						</div>
 					</div>
@@ -113,24 +114,24 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.php?mod=user&act=list">Home</a></li>
-								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+								<li><a href="index.php?mod=user&act=list" class="active">Trang chủ</a></li>
+								<li class="dropdown"><a href="#">Gian hàng<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Products</a></li>
-										<li><a href="#">Product Details</a></li> 
-										<li><a href="#">Checkout</a></li> 
-										<li><a href="index.php?mod=sale_user&act=cart" class="active">Cart</a></li> 
-										<li><a href="index.php?mod=login&act=formLogin">Login</a></li> 
+                                        <li><a href="#">Sản phẩm</a></li>
+										<li><a href="#">Chi tiết sản phẩm</a></li> 
+										<li><a href="#">Khảo giá</a></li> 
+										<li><a href="index.php?mod=sale_user&act=cart">Giỏ hàng</a></li> 
+										<li><a href="index.php?mod=login&act=formLogin">Đăng nhập</a></li> 
                                     </ul>
                                 </li> 
-								<li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
+								<li class="dropdown"><a href="#">Góp ý<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="#">Blog List</a></li>
-										<li><a href="#">Blog Single</a></li>
+                                        <li><a href="#">Góp ý sản phẩm</a></li>
+										<li><a href="#">Góp ý dịch vụ</a></li>
                                     </ul>
                                 </li> 
-								<li><a href="#">404</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="#">Sắp ra mắt</a></li>
+								<li><a href="#">Liên hệ</a></li>
 							</ul>
 						</div>
 					</div>
@@ -290,7 +291,7 @@
 				<div class="row">
 					<div class="col-sm-2">
 						<div class="companyinfo">
-							<h2><span>e</span>-shopper</h2>
+							<h2><span>Điện máy </span>Số</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
 						</div>
 					</div>
@@ -305,8 +306,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 						
@@ -320,8 +321,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 						
@@ -335,8 +336,8 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 						
@@ -350,15 +351,16 @@
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Circle of Hands</p>
-								<h2>24 DEC 2014</h2>
+								<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
 							<img src="views/user/images/home/map.png" alt="" />
-							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+							<p>Đường Chiến Thắng</p>
+								<h2>19 DEC 2018</h2>
 						</div>
 					</div>
 				</div>
@@ -370,59 +372,59 @@
 				<div class="row">
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Service</h2>
+							<h2>Dịch vụ</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">Online Help</a></li>
-								<li><a href="">Contact Us</a></li>
-								<li><a href="">Order Status</a></li>
-								<li><a href="">Change Location</a></li>
-								<li><a href="">FAQ’s</a></li>
+								<li><a href="#">Chăm sóc online</a></li>
+								<li><a href="#">Liên lạc</a></li>
+								<li><a href="#">Dịch vụ giao hàng</a></li>
+								<li><a href="#">Phản ánh dịch vụ</a></li>
+								<li><a href="#">FAQ’s</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Quock Shop</h2>
+							<h2>Mua nhanh</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">T-Shirt</a></li>
-								<li><a href="">Mens</a></li>
-								<li><a href="">Womens</a></li>
-								<li><a href="">Gift Cards</a></li>
-								<li><a href="">Shoes</a></li>
+								<li><a href="#">TV</a></li>
+								<li><a href="#">Máy giặt</a></li>
+								<li><a href="#">Tủ lạnh</a></li>
+								<li><a href="#">Điều hòa</a></li>
+								<li><a href="#">Bàn Là</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Policies</h2>
+							<h2>Chính sách</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">Terms of Use</a></li>
-								<li><a href="">Privecy Policy</a></li>
-								<li><a href="">Refund Policy</a></li>
-								<li><a href="">Billing System</a></li>
-								<li><a href="">Ticket System</a></li>
+								<li><a href="#">Điều khoản dịch vụ</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+								<li><a href="#">Chính sách hoàn trả</a></li>
+								<li><a href="#">Hệ thống thanh toán</a></li>
+								<li><a href="#">Hệ thống khuyến mãi</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>About Shopper</h2>
+							<h2>About Us</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="">Company Information</a></li>
-								<li><a href="">Careers</a></li>
-								<li><a href="">Store Location</a></li>
-								<li><a href="">Affillate Program</a></li>
-								<li><a href="">Copyright</a></li>
+								<li><a href="#">Thông tin công ty</a></li>
+								<li><a href="#">Thành phần</a></li>
+								<li><a href="#">Chi nhánh</a></li>
+								<li><a href="#">Chương trình làm việc</a></li>
+								<li><a href="#">Copyright</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-3 col-sm-offset-1">
 						<div class="single-widget">
-							<h2>About Shopper</h2>
+							<h2>Mục tiêu</h2>
 							<form action="#" class="searchform">
 								<input type="text" placeholder="Your email address" />
 								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-								<p>Get the most recent updates from <br />our site and be updated your self...</p>
+								<p>Trang bán hàng sẽ liên tục được cập nhật <br />hãy chuẩn bị...</p>
 							</form>
 						</div>
 					</div>
@@ -434,8 +436,8 @@
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
-					<p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
-					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+					<p class="pull-left">Copyright © 2018 Điện máy số Inc. All rights reserved.</p>
+					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">S-KTTSL</a></span></p>
 				</div>
 			</div>
 		</div>
