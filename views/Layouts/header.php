@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>SB Admin - Start Bootstrap Template</title>
+  <title>SB Admin</title>
   <link rel="icon" href="public/images/shopping_cart.png" type="images/x-icon">
   <!-- Bootstrap core CSS-->
   <link href="public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@
   <link href="public/css/sb-admin.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
     <!-- Latest compiled and minified JavaScript -->
@@ -46,7 +46,7 @@
             <span class="nav-link-text">Bảng điều khiển</span>
           </a>
         </li>
-        <?php if(isset($_SESSION['user'])&& $_SESSION['user']['NHOM_NV'] == 1) { ?>
+        <?php if(isset($_SESSION['user'])) { ?>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Products">
           <a class="nav-link" href="index.php?mod=product&act=list">
             <i class="fa fa-fw fab fa-product-hunt"></i>

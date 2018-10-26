@@ -8,6 +8,11 @@
         <li class="breadcrumb-item active">Tables</li>
       </ol>
       <!-- Example DataTables Card-->
+      <?php if(isset($_SESSION['user_cus'])) {?>
+      <a href="index.php?mod=customer&act=detail&MA_KH=<?= $_SESSION['user_cus']['MA_KH'] ?>" class="btn btn-success">Xem thông tin cá nhân</a> 
+                     <a href="index.php?mod=customer&act=edit&MA_KH=<?= $_SESSION['user_cus']['MA_KH'] ?>" class="btn btn-warning">Sửa đổi thông tin cá nhân</a>
+      <?php } ?>
+      <?php if(!isset($_SESSION['user_cus'])) {?>
       <h2 align="center">DANH SÁCH KHÁCH HÀNG</h2>
         <a href="index.php?mod=customer&act=add" class="btn btn-primary">Thêm khách hàng mới</a>
         <p><?php if (isset($_COOKIE['msg'])) {
@@ -44,12 +49,14 @@
 
                 </td>
               </tr>
-              <?php } ?>
+              
             </tbody>
             </table>
           </div>
         </div>
         <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
       </div>
+      <?php } ?>
+      <?php } ?>
     </div>
       <?php include "views/Layouts/footer.php"; ?>

@@ -15,9 +15,12 @@
             $data = $this->model->All();
             require_once('views/product/list.php');
         }
+
         function list_user(){
             $data_user = $this->model->All();
+            $data_types_user = $this->model_type->All();
             require('views/user/list.php');
+            
         }
         function add(){
             $product_types = $this->model_type->All();
@@ -81,6 +84,11 @@
                 // Thông báo lỗi
             }
             
+        }
+        function detail_user(){
+            $maSP = $_GET['MA_SP'];
+            $row = $this->model->find($maSP);
+            require_once('views/user/product_details.php');
         }
         function delete(){
             $maSP = $_GET['MA_SP'];

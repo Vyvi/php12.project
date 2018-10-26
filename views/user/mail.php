@@ -44,9 +44,20 @@
         if(!$mail->Send()) {
           echo "Có lỗi khi gửi mail: " . $mail->ErrorInfo;
 					return false;
+                    // header('Location: index.php?mod=user&act=list');
         } else {
-          echo "Đã gửi thư thành công!";
+          // echo "Đã gửi thư thành công!";
+            echo '<script type="text/javascript">
+           window.location = "index.php?mod=user&act=list";
+           window.onload(alert("Bạn đặt hàng thành công!!"));
+            
+            
+
+      </script>';
 					return true;
+                    // header('Location: index.php?mod=user&act=list');
+
         }
+
 	}
  ?>

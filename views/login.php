@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>SB Admin - Start Bootstrap Template</title>
+  <title> Admin </title>
   <!-- Bootstrap core CSS-->
   <link rel="icon" href="public/images/shopping_cart.png" type="images/x-icon">
   <link href="Public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                 <input class="form-check-input" type="checkbox"> Remember Password</label>
             </div>
           </div>
-          <button type="submit" id="submit" name="submit" class="btn btn-primary" onsubmit="return validateForm()">Đăng nhập</button>
+          <button type="submit" id="submit" name="submit" class="btn btn-primary" onsubmit="validateForm()">Đăng nhập</button>
         </form>
         <div class="text-center">
           <a class="d-block small mt-3" href="register.html">Register an Account</a>

@@ -7,6 +7,8 @@
 	ob_end_clean();
 	$subject = 'Thông tin thanh toán';
 	send_email('levinh090496@gmail.com','Lê Thế Vinh',$contents,$subject);
-	header('Location: index.php?mod=user&act=list');
+	die;
 
  ?>
+
+

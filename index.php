@@ -33,8 +33,12 @@
 			// $controller1 =  new SaleController();
 			switch ($act) {
 				case 'list':
+
 					$controller->list_user();
+
 					break;
+				case 'detail':
+					$controller->detail_user();
 					
 				default:
 					echo "Coming soon";
@@ -58,8 +62,13 @@
 				case 'destroy':
 					$controller->destroy_user();
 					break;
+				case 'shipform':
+					require('views/user/shipform.php');
+					break;
 				case 'send':
 					require('views/user/send2mail.php');
+
+					
 					break;
 				default:
 					echo "ahhh";
@@ -176,11 +185,12 @@
 			}
 			break;
 		case 'login':
-
+			// $check->check();
 			require_once('controllers/LoginController.php');
 			$controller = new LoginController();
 			switch ($act) {
 				case 'formLogin':
+
 					$controller->formLogin();
 					break;
 				case 'checkLogin':

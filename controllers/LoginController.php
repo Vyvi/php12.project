@@ -40,6 +40,9 @@
         }
 
         function formLogin(){
+            if(isset($_SESSION['islogIn']) ){
+            header('Location: index.php?mod=home&act=index');
+            }
             require_once('views/login.html');
         }
     }
